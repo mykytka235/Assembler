@@ -45,7 +45,7 @@ sub ax, bx
 ;b=(76x+5m) + 4d/94x + F9-4P
 add ax, cx
 add ax, dx
-
+mov b, ax
 
 mov ax,4c00h
 int 21H
