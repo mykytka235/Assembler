@@ -4,7 +4,6 @@ data segment
     string db 'String which has 123 45 hmm$'
     string2 db 100 dup(' ')
     tmp db 'pro'
-    counter dw 3
 data ends
 code segment
     assume cs:code,ds:data
